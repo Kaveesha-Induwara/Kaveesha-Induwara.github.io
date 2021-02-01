@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Create Page</title>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="https://raw.githubusercontent.com/cyberboysumanjay/Portfolio-Website-Template/master/static/css/style.css?token=AITGYDFI4MBMB6ZK5RRZ3OK7D3FLK" />
+    <script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.6/dist/clipboard.min.js"></script>
+    <link rel="icon" href="https://telegra.ph/file/41b26a0aabd6ff346a49c.png" type="image/png" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+</head>
+<style>
+    @import url("https://fonts.googleapis.com/css?family=Poppins");
+    @import url("https://fonts.googleapis.com/css?family=Questrial");
+    body {
+        background-color: rgb(10, 10, 10);
+    }
+
+    h1 {
+        color: #fff;
+        font-size: 30px;
+        font-family: "Poppins", sans-serif;
+    }
+
+    h2 {
+        color: #fff;
+        font-size: 20px;
+        font-family: "Poppins", sans-serif;
+    }
+
+    h2:before {
+        content: "• ";
+    }
+
+    .list-text {
+        color: #fff;
+        font-size: 18px;
+        font-family: "Questrial", sans-serif;
+    }
+
+    a {
+        color: red;
+        text-decoration: none;
+    }
+
+    a:hover {
+        color: #2ef2ef;
+        text-decoration: none;
+    }
+    /*Add custom cursor so it auto inherits font styles*/
+    /*Removes cursor that comes with typed.js*/
+
+    .typed-cursor {
+        opacity: 0;
+        display: none;
+    }
+    /*Custom cursor animation*/
+
+    @keyframes blink {
+        0% {
+            opacity: 1;
+        }
+        50% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
+    }
+
+    @-webkit-keyframes blink {
+        0% {
+            opacity: 1;
+        }
+        50% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
+    }
+
+    @-moz-keyframes blink {
+        0% {
+            opacity: 1;
+        }
+        50% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
+    }
+
+    #footer {
+        width: 100%;
+        padding: 8vh 0px;
+        text-align: center;
+    }
+
+    #footer a {
+        color: #fff !important;
+        text-decoration: none;
+        font-family: "Questrial", sans-serif;
+        font-weight: bold;
+    }
+
+    .button {
+        background-color: #4CAF50;
+        border: none;
+        color: white;
+        padding: 8px 8px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 0px 4px;
+        transition-duration: 0.4s;
+        cursor: pointer;
+    }
+
+    .btn {
+        background-color: #f44336;
+        color: black;
+        border: solid #f44336;
+    }
+
+    .btn:hover {
+        background-color: rgb(10, 10, 10);
+        color: white;
+    }
+
+    .iframe-container {
+        position: relative;
+        width: 100%;
+        padding-bottom: 56.25%;
+        height: 0;
+    }
+
+    .iframe-container iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    @media only screen and (min-width: 993px) {
+        .fix-height {
+            height: 350px;
+            width: 550px;
+        }
+    }
+</style>
+
+<body>
+    <div class="container">
+        <h1>
+            Create and use as your <br /> &gt; <span class="typed" style="color:red;"></span>
+        </h1>
+
+        <div class="iframe fix-height">
+            <iframe class="fix-height" src="https://www.youtube.com/embed/yd9EGaGTjyo" frameborder="5" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+
+        <h2 class="text">Steps:</h2>
+        <ol class="list-text">
+            <li>
+                Click
+                <a href="https://gist.githubusercontent.com/cyberboysumanjay/f25e9c9945876e1e5aea954621929995/raw/30070da288bd8e4afa3ab317a8b64837e6896935/data.json" target="_blank">here</a
+        >
+        and copy the opened JSON Text
+      </li>
+      <br />
+      <li>
+        Open any paste service like
+        <a href="https://hastebin.com">hastebin.com</a> or
+                <a href="https://del.dog/">del.dog</a> and paste the JSON Contents
+            </li>
+            <br />
+            <li>
+                Edit the values according to your data as specified in the
+                <a href="https://youtu.be/yd9EGaGTjyo" target="_blank">video</a>
+            </li>
+            <br />
+            <li>
+                Save the file and copy the generated paste link and send to
+                <a href="https://telegram.dog/visitkbot" target="_blank">this bot</a>
+            </li>
+            <br />
+            <li>Bot will reply with your public page link.</li>
+        </ol>
+    </div>
+    <script type="text/javascript " src="/static/js/typed.min.js "></script>
+    <script>
+        var desc_strings = [
+            "Portfolio.",
+            "Instagram Bio Link.",
+            "About Page.",
+            "Product Page.",
+            "Channel Page."
+        ];
+        $(".typed").typed({
+            strings: desc_strings,
+            typeSpeed: 10,
+            backDelay: 3000,
+            startDelay: 200,
+            loop: true,
+            loopCount: false
+        });
+    </script>
+    <script type="text/javascript">
+        var clipboard = new ClipboardJS(".btn");
+
+        clipboard.on("success", function(e) {
+            console.info("Action:", e.action);
+            console.info("Text:", e.text);
+            console.info("Trigger:", e.trigger);
+            alert("JSON Link Copied to Clipboard");
+            e.clearSelection();
+        });
+
+        clipboard.on("error", function(e) {
+            console.error("Action:", e.action);
+            console.error("Trigger:", e.trigger);
+        });
+    </script>
+</body>
+
+</html>

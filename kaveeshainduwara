@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Kaveesha Induwara</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/magic-grid/dist/magic-grid.min.js"></script>
+    
+    <link rel="stylesheet" type="text/css" href="/static/css/dark.css" /> 
+    <link rel="icon" href="https://telegra.ph/file/e09fb70dc8b95dd6867ea.jpg" type="image/png">
+</head>
+
+<body>
+    <div id="loading">
+        <div id="spinner"></div>
+    </div>
+    <div id="profile">
+        <div id="profile_img" style="background: url(https://telegra.ph/file/e09fb70dc8b95dd6867ea.jpg) center;"></div>
+        <div id="username"><span style="display:block;">Kaveesha Induwara</span><a href="https://t.me/Kaveesha_Induwara">@Kaveesha Induwara</a></div>
+        <div id="userbio" style="display: block; height: 10px"></div>
+        <div id="about">
+            <span style="display:none;"><i class="fas fa-users"></i> &nbsp; null</span>
+            <span style="display:none;"><i class="fas fa-envelope"></i> &nbsp; null</span>
+            <span style="display:block;"><i class="fas fa-code"></i>&nbsp;&nbsp;Anyone Can Code!</span>
+            <span style="display:block;"><i class="fas fa-users"></i> &nbsp; Tech Wizard Entertainment</span>
+            <span style="display:block;"><i class="fas fa-link"></i> &nbsp; <a href="https://t.me/Kaveesha_Induwara">http://t.me/Kaveesha_Induwara</a></span>
+            <span style="display:block;"><i class="fas fa-map-marker-alt"></i> &nbsp;&nbsp; Sri Lanka 🇱🇰</span>
+
+            <div class="socials">
+                 
+                <span style="display:block;"><a href="https://www.linkedin.com/in/kaveesha-induwara-389279202/" target="_blank" class="socials"><i class="fab fa-linkedin-in" style="font-size: 30px;padding-left:4px; padding-right: 4px; "></i></a></span>  
+                <span style="display:block;"><a href="https://api.whatsapp.com/send?phone=http://wa.me/94702713435&amp;text=Hi!" target="_blank" class="socials"><i class="fab fa-whatsapp" style="font-size: 30px;padding-left:4px; padding-right: 4px;"></i></a></span>  
+                <span style="display:block;"><a href="https://t.me/Kaveesha_Induwara" target="_blank" class="socials"><i class="fab fa-telegram-plane" style="font-size: 30px;padding-left:4px; padding-right: 4px;"></i></a></span>  
+                <span style="display:block;"><a href="https://m.me/Kaveesha.Induwara.03.17" target="_blank" class="socials"><i class="fab fa-facebook" style="font-size: 30px;padding-left:4px; padding-right: 4px;"></i></a></span>   
+                <span style="display:block;"><a href="https://www.youtube.com/" target="_blank" class="socials"><i class="fab fa-youtube" style="font-size: 30px;padding-left:4px; padding-right: 4px;"></i></a></span>     
+                <span style="display:block;"><a href="https://github.com/kaviya-admin" target="_blank" class="socials"><i class="fab fa-github" style="font-size: 30px;padding-left:4px; padding-right: 4px;"></i></a></span>  
+                <span style="display:block;"><a href="/cdn-cgi/l/email-protection#e48f85928181978c85ca8580898d8aa489858d8897ca899dca8d80" target="_blank" class="socials"><i class="fas fa-envelope" style="font-size: 30px;padding-left:4px; padding-right: 4px;"></i></a></span> 
+            </div>
+        </div>
+    </div>
+    <div id="display">
+        <div id="links" style="display: block;">
+            <h1>Links.</h1>
+            <div class="projects" id="links_section">
+                
+                <a href="https://t.me/Tech_Wizard_Entertainment" target="_blank">
+                    <section>
+                        <div class="section_title">Telegram Channel</div>
+                        <div class="about_section">
+                            <span style="display:block;">What&#39;s the better way to be updated with the latest developments?</span>
+                        </div>
+                        <!--
+                        <div class="bottom_section">
+                            <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; CSS</span>
+                            <span><i class="fas fa-star"></i>&nbsp; 6</span>
+                            <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                        </div>
+                        -->
+                    </section>
+                </a>
+                
+                <a href="https://t.me/Tech_Wizard_Ent" target="_blank">
+                    <section>
+                        <div class="section_title">Telegram Group</div>
+                        <div class="about_section">
+                            <span style="display:block;">Our support and discussion group for pretty much everything!</span>
+                        </div>
+                        <!--
+                        <div class="bottom_section">
+                            <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; CSS</span>
+                            <span><i class="fas fa-star"></i>&nbsp; 6</span>
+                            <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                        </div>
+                        -->
+                    </section>
+                </a>
+                
+                <a href="https://www.youtube.com/" target="_blank">
+                    <section>
+                        <div class="section_title">Youtube Channel</div>
+                        <div class="about_section">
+                            <span style="display:block;">Our YouTube Channel for hosting live sessions, coding and learning something useful! (Maybe PUBG Too!)</span>
+                        </div>
+                        <!--
+                        <div class="bottom_section">
+                            <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; CSS</span>
+                            <span><i class="fas fa-star"></i>&nbsp; 6</span>
+                            <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                        </div>
+                        -->
+                    </section>
+                </a>
+                
+                <a href="https://visi.tk/KaveeshaInduwara" target="_blank">
+                    <section>
+                        <div class="section_title">About our Lead Developer</div>
+                        <div class="about_section">
+                            <span style="display:block;">I coded this so there must be some space for me 😂</span>
+                        </div>
+                        <!--
+                        <div class="bottom_section">
+                            <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; CSS</span>
+                            <span><i class="fas fa-star"></i>&nbsp; 6</span>
+                            <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                        </div>
+                        -->
+                    </section>
+                </a>
+                
+            </div>
+        </div>
+        
+        <div id="work">
+            <h1>Works.</h1>
+            <div class="projects" id="work_section">
+                
+                <a href="https://github.com/kaviya-admin/TorrentLeech-Gdrive" target="_blank">
+                    <section>
+                        <div class="section_title">TorrentLeech-Gdrive</div>
+                        <div class="about_section">
+                            <span style="display:block;">First Telegram Leech Bot on Telegram to Leech Torrent To Telegram File.</span>
+                        </div>
+                        <div class="bottom_section">
+                          
+                            <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; Python</span>
+                          
+                          
+                          
+                        </div>
+                    </section>
+                </a>
+                
+                <a href="https://github.com/kaviya-admin/FileRenameBot" target="_blank">
+                    <section>
+                        <div class="section_title">File Renamer Robot</div>
+                        <div class="about_section">
+                            <span style="display:block;">🎉 You can rename any Telegram Document, using this bot! With Permanent Thumbnail.</span>
+                        </div>
+                        <div class="bottom_section">
+                          
+                            <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; Python</span>
+                          
+                          
+                          
+                        </div>
+                    </section>
+                </a>
+                
+                <a href="https://visi.tk/create" target="_blank">
+                    <section>
+                        <div class="section_title">This Site ❤️</div>
+                        <div class="about_section">
+                            <span style="display:block;">Build a beautiful webpage which can be used as Portfolio, Channel Webpage, Instagram Bio Link, etc.</span>
+                        </div>
+                        <div class="bottom_section">
+                          
+                            <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; Flask</span>
+                          
+                          
+                          
+                        </div>
+                    </section>
+                </a>
+                
+            </div>
+        </div>
+        
+
+
+        <div id="footer">
+            <!-- This HTML Code is copied from GitFolio (https://github.com/imfunniee/gitfolio) and modified by Sumanjay -->
+            <a href="https://visi.tk" target="_blank">Made with ❤️ using visi.tk</a>
+        </div>
+    </div>
+
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script type="text/javascript">
+        setTimeout(function() {
+            document.getElementById("loading").classList.add("animated");
+            document.getElementById("loading").classList.add("fadeOut");
+            setTimeout(function() {
+                document.getElementById("loading").classList.remove("animated");
+                document.getElementById("loading").classList.remove("fadeOut");
+                document.getElementById("loading").style.display = "none";
+            }, 800);
+        }, 1500);
+    </script>
+    <script>
+        const magicProjectsGrid = new MagicGrid({
+            container: "#work_section",
+            animate: false,
+            gutter: 30, // default gutter size
+            static: true,
+            useMin: false,
+            maxColumns: 2,
+            useTransform: true
+        });
+
+        const magicLinksGrid = new MagicGrid({
+            container: "#links_section",
+            animate: false,
+            gutter: 30, // default gutter size
+            static: true,
+            useMin: false,
+            maxColumns: 2,
+            useTransform: true
+        });
+
+        $("document").ready(() => {
+            magicProjectsGrid.listen();
+            magicLinksGrid.listen();
+        });
+    </script>
+    <script type="text/javascript " src="/static/js/typed.min.js "></script>
+    <script>
+        var desc_strings = ["Telegram Bots", "Telegram Channels", "Apps", "Websites"];
+        $("#userbio").typed({
+            strings: desc_strings,
+            typeSpeed: 10,
+            backDelay: 3000,
+            startDelay: 200,
+            loop: true,
+            loopCount: false
+        });
+    </script>
+
+</body>
+
+</html>
